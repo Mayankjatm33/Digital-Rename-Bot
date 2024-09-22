@@ -30,21 +30,21 @@ from config import Config, rkn
 from helper.utils import humanbytes
 
 upgrade_button = InlineKeyboardMarkup([[        
-        InlineKeyboardButton('buy premium ✓', user_id=int(6705898491)),
+        InlineKeyboardButton('buy premium ✓', user_id=int(5222155765)),
          ],[
         InlineKeyboardButton("Bᴀᴄᴋ", callback_data = "start")
 ]])
 
 upgrade_trial_button = InlineKeyboardMarkup([[        
-        InlineKeyboardButton('buy premium ✓', user_id=int(6705898491)),
+        InlineKeyboardButton('buy premium ✓', user_id=int(5222155765)),
          ],[
         InlineKeyboardButton("ᴛʀɪᴀʟ - 𝟷𝟸 ʜᴏᴜʀs ✓", callback_data = "give_trial"),
         InlineKeyboardButton("Bᴀᴄᴋ", callback_data = "start")
 ]])
 
 start_button = InlineKeyboardMarkup([[        
-        InlineKeyboardButton('Uᴩᴅᴀ𝚃ᴇꜱ', url='https://t.me/Digital_Botz'),
-        InlineKeyboardButton('Sᴜᴩᴩᴏʀ𝚃', url='https://t.me/DigitalBotz_Support')
+        InlineKeyboardButton('Uᴩᴅᴀ𝚃ᴇꜱ', url='https://t.me/WarriorUnitsBots'),
+        InlineKeyboardButton('Sᴜᴩᴩᴏʀ𝚃', url='https://t.me/WarriorUnitsBots')
         ],[
         InlineKeyboardButton('Aʙᴏυᴛ', callback_data='about'),
         InlineKeyboardButton('Hᴇʟᴩ', callback_data='help')
@@ -220,7 +220,7 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
            #Whoever is deploying this repo is given a warning ⚠️ not to remove this repo link #first & last warning ⚠️   
-                InlineKeyboardButton("💞 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 💞", url="https://github.com/DigitalBotz/Digital-Rename-Bot")
+                InlineKeyboardButton("💞 Buy Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 💞", url="https://t.me/oo7jatji")
             ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
